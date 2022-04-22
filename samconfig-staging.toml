@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "sam-app-staging"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-15745m1vwo4bf"
+s3_prefix = "sam-app-staging"
+region = "ap-south-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = ["ExpressFunction=292528552804.dkr.ecr.ap-south-1.amazonaws.com/samapp7427b055/expressfunction9fcbc1barepo"]
